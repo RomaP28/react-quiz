@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-src/components/DateCounter.js
+src/DateCounter.js
 
 # testing
 /coverage
