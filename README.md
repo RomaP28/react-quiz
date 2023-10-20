@@ -1,6 +1,6 @@
 ![Banner](./banner.png)
 
-# The react Quiz!💪
+# The react Quiz! 💪
 
 This is a small React quiz that builded by useReducer hook.
 

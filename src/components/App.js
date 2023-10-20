@@ -49,10 +49,11 @@ function reducer(state, action) {
 	            highscore: state.points > state.highscore ? state.points : state.highscore,
             };
         case 'restart':
-            return { ...initialState,
-                     questions: state.questions,
-                     status: "ready"
-                    };
+            return {
+                ...initialState,
+                questions: state.questions,
+                status: "ready"
+            };
         case 'newAnswer':
             const question = state.questions[state.index];
             return {
